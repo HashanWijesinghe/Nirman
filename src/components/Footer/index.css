@@ -1,0 +1,20 @@
+.footer {
+    background-color: var(--blue-dianne);
+}
+
+.footer-social-icons > a svg{
+    font-size: 30px;
+    color: white !important;
+}
+
+.horizontal-rule {
+    border-color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+}
+
+.copyright {
+    color: var(--gray-chateau);
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}

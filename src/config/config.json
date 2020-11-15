@@ -1,0 +1,12 @@
+{
+    "firebaseConfig": {
+        "apiKey": "AIzaSyCHC3a_Ny9KcvdoJCrzzT-74GR12XXSn1g",
+        "authDomain": "nirman-ff884.firebaseapp.com",
+        "databaseURL": "https://nirman-ff884.firebaseio.com",
+        "projectId": "nirman-ff884",
+        "storageBucket": "nirman-ff884.appspot.com",
+        "messagingSenderId": "1041142338682",
+        "appId": "1:1041142338682:web:2130e3a16ed877a3e8d7c3",
+        "measurementId": "G-341Q7F0T1L"
+      }
+}

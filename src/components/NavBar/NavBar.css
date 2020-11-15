@@ -1,0 +1,58 @@
+.navbar-light .navbar-nav .nav-link{
+    color:#fff !important;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400 !important;
+    font-size: 18px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+  }
+a:after {
+    position: absolute;
+    content: "";
+    height: .1em;
+    top: 100%;
+    background: currentColor;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    transition: transform .5s cubic-bezier(.19, .05, .795, .035);
+  }
+
+a:hover::after {
+    transition-timing-function: cubic-bezier(.19, 1.5, .22, 1.5);  
+    transform: scaleX(1);
+  }
+  
+
+.brand-container {
+  color: white;
+  font-weight: 100;
+}
+
+.brand-text {
+  margin: 1rem;
+  margin-left: 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.brand-icon {
+  height: 50px;
+  object-fit: cover;
+  width: 50px;
+  border-radius: 25px;
+  margin: 1rem;
+}
+
+.navbar-brand:hover::after { 
+  transform: scaleX(0);
+}

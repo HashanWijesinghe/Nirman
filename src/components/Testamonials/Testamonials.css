@@ -1,0 +1,31 @@
+.testamonial-container {
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+}
+
+.testamonial-section-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.quote-left {
+    margin-right: 5px;
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.quote-right {
+    margin-right: 5px;
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.content {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 100;
+    color: #0000007d;
+    font-style: oblique;
+}
